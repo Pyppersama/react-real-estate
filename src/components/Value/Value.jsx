@@ -9,6 +9,7 @@ import {
 } from 'react-accessible-accordion'
 import 'react-accessible-accordion/dist/fancy-example.css'
 import { FaBeer } from "react-icons/fa";
+import { MdOutlineArrowCircleDown } from "react-icons/md";
 import './Value.css'
 import data from '../../utils/accordion'
 
@@ -55,7 +56,7 @@ const Value = () => {
 
                                         <div className="flexCenter icon">{item.icon}</div>
                                         <span className="primaryText">{item.heading}</span>
-                                        <div className="flexCenter icon">{<FaBeer size={20}/>}</div>
+                                        <div className="flexCenter icon">{<MdOutlineArrowCircleDown size={20}/>}</div>
                                     </AccordionItemButton>
                                 </AccordionItemHeading>
                                 <AccordionItemPanel>
