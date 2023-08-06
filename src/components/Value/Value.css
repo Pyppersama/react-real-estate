@@ -40,3 +40,27 @@ border: 8px solid rgba(232, 232, 232, 0.93);
 .accordionButton .primaryText{
     font-size: 1.2rem;
 }
+
+
+@media (max-width: 1024px) {
+    .v-container{
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 768px) {
+    .accordionButton .primaryText{
+        font-size: 0.8rem;
+    }
+    .accordionButton{
+        padding: 0.8rem;
+    }
+}
+@media (max-width: 640px) {
+    .v-left .image-container{
+        margin: auto;
+    }
+    .v-right{
+        align-items: center;
+    }
+}

@@ -9,3 +9,14 @@
     margin-top: 1.5rem;
     font-weight: 500;
 }
+
+@media (max-width: 600px) {
+    .f-container{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .f-container > div{
+        align-items: center !important;
+        text-align: center;
+    }
+}

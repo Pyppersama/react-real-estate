@@ -51,4 +51,40 @@
     scale: 0.8;
 }
 
+@media (max-width: 1094px) {
+    .c-container{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .con-left{
+        align-items: center;
+    }
+    .con-right{
+        justify-content: center;
+    }
+    .con-right .image-container{
+        width: 70%;
+    }
+    
+    
+}
+
+@media (max-width: 600px) {
+    .contactModes{
+        width: 100%;
+    }
+    .row{
+        flex-direction: column;
+        width: 100%;
+    }
+    .mode{
+        width: 100%;
+    }
+}
+
+@media (max-width: 460px) {
+    .con-right .image-container{
+        width: 100%;
+    }
+}
 

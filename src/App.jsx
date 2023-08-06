@@ -1,5 +1,5 @@
 import Header from "./components/Header/Header";
-import Hero from "./components/hero/hero";
+import Hero from "./components/Hero/Hero";
 import './App.css'
 import Companies from "./components/Companies/Companies";
 import Residencies from "./components/Residencies/Residencies";
@@ -11,8 +11,8 @@ import Footer from "./components/Footer/Footer";
 function App() {
   return (
     <div className="App">
-      <div>
-        <div className="white-gradient"/>
+      <div className="app-inner">
+        <div className="white-gradient"></div>
         <Header />
         <Hero />
       </div>
