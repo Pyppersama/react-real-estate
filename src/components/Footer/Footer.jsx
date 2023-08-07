@@ -17,7 +17,7 @@ const Footer = () => {
             <div className="flexColStart f-right">
                 <span className='primaryText'>Information</span>
                 <span className='secondaryText'>
-                    1, Owobiyi Close, Ogba, Lagos
+                    1, Owobole Close, Ogba, Lagos
                 </span>
                 <div className="flexCenter f-menu">
                     <span>Property</span>
